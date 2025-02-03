@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "target": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/cucumber-framework"
+        ]
+    },
+    "tsConfigPathsOpts": {
+        "baseUrl": "./",
+        "paths": "tsConfig.compilerOptions.paths"
+    }
+
+}

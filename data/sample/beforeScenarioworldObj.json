@@ -1,0 +1,279 @@
+{
+    "gherkinDocument": {
+        "feature": {
+            "tags": [],
+            "location": {
+                "line": 3,
+                "column": 1
+            },
+            "language": "en",
+            "keyword": "Feature",
+            "name": "Inventory",
+            "description": "",
+            "children": [
+                {
+                    "scenario": {
+                        "id": "fa2717fb-c926-4dfc-900a-c06582697c1d",
+                        "tags": [
+                            {
+                                "location": {
+                                    "line": 5,
+                                    "column": 1
+                                },
+                                "name": "@Demo",
+                                "id": "8b1a086f-6047-4e67-86f5-de1018d743c6"
+                            }
+                        ],
+                        "location": {
+                            "line": 7,
+                            "column": 1
+                        },
+                        "keyword": "Scenario Outline",
+                        "name": "<TestID>: Demo Inventory",
+                        "description": "",
+                        "steps": [
+                            {
+                                "id": "0b68ba07-aad9-4c7e-9cee-67023274a73a",
+                                "location": {
+                                    "line": 9,
+                                    "column": 1
+                                },
+                                "keyword": "Given ",
+                                "keywordType": "Context",
+                                "text": "Amazon page is open and user login",
+                                "dataTable": {
+                                    "location": {
+                                        "line": 10,
+                                        "column": 5
+                                    },
+                                    "rows": [
+                                        {
+                                            "id": "4a296b7c-0079-4e51-b8aa-0828919415f2",
+                                            "location": {
+                                                "line": 10,
+                                                "column": 5
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 10,
+                                                        "column": 7
+                                                    },
+                                                    "value": "UserType"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 10,
+                                                        "column": 18
+                                                    },
+                                                    "value": "Username"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "22941908-438d-417a-837d-ed0580f6af46",
+                                            "location": {
+                                                "line": 11,
+                                                "column": 5
+                                            },
+                                            "cells": [
+                                                {
+                                                    "location": {
+                                                        "line": 11,
+                                                        "column": 7
+                                                    },
+                                                    "value": "StdUser"
+                                                },
+                                                {
+                                                    "location": {
+                                                        "line": 11,
+                                                        "column": 18
+                                                    },
+                                                    "value": "standar_user"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "f20d179f-4dd3-467e-a944-6ee8e15c504d",
+                                "location": {
+                                    "line": 14,
+                                    "column": 1
+                                },
+                                "keyword": "Then ",
+                                "keywordType": "Outcome",
+                                "text": "Validate all products with valid prices"
+                            }
+                        ],
+                        "examples": [
+                            {
+                                "id": "0e0f7872-b026-4fe1-8968-b45e6d8f4ac9",
+                                "tags": [],
+                                "location": {
+                                    "line": 19,
+                                    "column": 1
+                                },
+                                "keyword": "Examples",
+                                "name": "",
+                                "description": "",
+                                "tableHeader": {
+                                    "id": "ca5e4911-523a-4aa4-804c-84dbefeb9acc",
+                                    "location": {
+                                        "line": 20,
+                                        "column": 5
+                                    },
+                                    "cells": [
+                                        {
+                                            "location": {
+                                                "line": 20,
+                                                "column": 7
+                                            },
+                                            "value": "TestID"
+                                        },
+                                        {
+                                            "location": {
+                                                "line": 20,
+                                                "column": 18
+                                            },
+                                            "value": "Header 2"
+                                        },
+                                        {
+                                            "location": {
+                                                "line": 20,
+                                                "column": 29
+                                            },
+                                            "value": "Header 3"
+                                        }
+                                    ]
+                                },
+                                "tableBody": [
+                                    {
+                                        "id": "d417c5ce-559a-4f50-a773-cc90a1e4dad0",
+                                        "location": {
+                                            "line": 21,
+                                            "column": 5
+                                        },
+                                        "cells": [
+                                            {
+                                                "location": {
+                                                    "line": 21,
+                                                    "column": 7
+                                                },
+                                                "value": "TC001  GTHTF"
+                                            },
+                                            {
+                                                "location": {
+                                                    "line": 21,
+                                                    "column": 23
+                                                },
+                                                "value": "Value 2"
+                                            },
+                                            {
+                                                "location": {
+                                                    "line": 21,
+                                                    "column": 34
+                                                },
+                                                "value": "Value 3"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "comments": [
+            {
+                "location": {
+                    "line": 6,
+                    "column": 1
+                },
+                "text": "#scenario outline cab=n be used to run the same scenario multiple times with different combinations of values  "
+            },
+            {
+                "location": {
+                    "line": 13,
+                    "column": 1
+                },
+                "text": "#Given Amazon page is open and user login"
+            },
+            {
+                "location": {
+                    "line": 15,
+                    "column": 1
+                },
+                "text": "#When Search with <SearchItem>"
+            }
+        ],
+        "uri": "test/features/demo/demo.feature"
+    },
+    "pickle": {
+        "id": "14daa752-c778-4630-850d-961983369d6c",
+        "uri": "test/features/demo/demo.feature",
+        "astNodeIds": [
+            "fa2717fb-c926-4dfc-900a-c06582697c1d",
+            "d417c5ce-559a-4f50-a773-cc90a1e4dad0"
+        ],
+        "name": "TC001  GTHTF: Demo Inventory",
+        "language": "en",
+        "steps": [
+            {
+                "id": "ef4a0462-e588-475a-b71c-c83a36d368c7",
+                "text": "Amazon page is open and user login",
+                "type": "Context",
+                "argument": {
+                    "dataTable": {
+                        "rows": [
+                            {
+                                "cells": [
+                                    {
+                                        "value": "UserType"
+                                    },
+                                    {
+                                        "value": "Username"
+                                    }
+                                ]
+                            },
+                            {
+                                "cells": [
+                                    {
+                                        "value": "StdUser"
+                                    },
+                                    {
+                                        "value": "standar_user"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "astNodeIds": [
+                    "0b68ba07-aad9-4c7e-9cee-67023274a73a",
+                    "d417c5ce-559a-4f50-a773-cc90a1e4dad0"
+                ],
+                "keyword": "Given "
+            },
+            {
+                "id": "65a7d295-cbd3-4429-9bf7-d13b1cd7a876",
+                "text": "Validate all products with valid prices",
+                "type": "Outcome",
+                "astNodeIds": [
+                    "f20d179f-4dd3-467e-a944-6ee8e15c504d",
+                    "d417c5ce-559a-4f50-a773-cc90a1e4dad0"
+                ],
+                "keyword": "Then "
+            }
+        ],
+        "tags": [
+            {
+                "name": "@Demo",
+                "astNodeId": "8b1a086f-6047-4e67-86f5-de1018d743c6"
+            }
+        ]
+    },
+    "testCaseStartedId": "5dd2d988-735e-454c-bd29-f9f3f37ab97a"
+}
